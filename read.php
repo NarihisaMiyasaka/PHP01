@@ -30,7 +30,8 @@ echo "<table>
             <th>Rating</th>
             <th>お勧めポイント</th>
             <th>自由記載</th>
-        </tr>";
+        </tr>"
+        ;
 
 // csvデータを配列に変換しhtmlへ
 while($line = fgetcsv($f)) {
